@@ -1,5 +1,38 @@
+/* font-family: 'Mulish', sans-serif; */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: #121214;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  padding: 7.2rem 10.4rem;
+}
+
+.card {
+  background: #202024;
+  border: 0.2rem solid #323238;
+  border-radius: 0.8rem;
+}
+
+.card h2 {
+  color: #e1e1e6;
+  font-weight: 900;
+  font-size: 3.5rem;
+  padding: 2.4rem 3.2rem 0;
+}
+
+.card p {
+  color: #c4c4cc;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 2.4rem 3.2rem 3.2rem;
 }
